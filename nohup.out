@@ -1,0 +1,95 @@
+[2026-02-27 21:05:26.169] [info] Using configuration file /home/jovany/.config/waybar/config.jsonc
+[2026-02-27 21:05:26.170] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[2026-02-27 21:05:26.171] [info] Using CSS file /home/jovany/.config/waybar/style.css
+[2026-02-27 21:05:26.175] [info] Hyprland IPC starting
+[2026-02-27 21:05:26.175] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-27 21:05:26.178] [warning] module sway/mode: Disabling module "sway/mode", Socket path is empty
+[2026-02-27 21:05:26.179] [warning] module sway/scratchpad: Disabling module "sway/scratchpad", Socket path is empty
+[2026-02-27 21:05:26.182] [error] media stopped unexpectedly, is it endless?
+[2026-02-27 21:05:26.182] [warning] module sway/window: Disabling module "sway/window", Socket path is empty
+[2026-02-27 21:05:26.183] [warning] module backlight: Disabling module "backlight", No backlight found
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event10 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event9 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event8 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event25 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event24 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event23 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event22 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event21 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event20 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event19 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event18 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event17 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event16 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event15 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event14 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event13 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event12 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event11 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/mouse0 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/mice (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event7 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event6 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event5 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event4 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event3 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event2 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event1 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] Can't open /dev/input/event0 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.183] [warning] module keyboard-state: Disabling module "keyboard-state", Failed to find keyboard device: EACCES Permission denied
+[2026-02-27 21:05:26.185] [warning] module sway/language: Disabling module "sway/language", Socket path is empty
+[2026-02-27 21:05:26.199] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-27 21:05:26.201] [warning] module sway/mode: Disabling module "sway/mode", Socket path is empty
+[2026-02-27 21:05:26.203] [warning] module sway/scratchpad: Disabling module "sway/scratchpad", Socket path is empty
+[2026-02-27 21:05:26.206] [error] media stopped unexpectedly, is it endless?
+[2026-02-27 21:05:26.206] [warning] module sway/window: Disabling module "sway/window", Socket path is empty
+[2026-02-27 21:05:26.206] [warning] module backlight: Disabling module "backlight", No backlight found
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event10 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event9 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event8 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event25 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event24 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event23 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event22 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event21 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event20 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event19 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event18 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event17 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event16 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event15 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event14 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event13 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event12 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event11 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/mouse0 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/mice (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event7 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event6 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event5 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event4 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event3 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event2 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event1 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] Can't open /dev/input/event0 (are you in the input group?): EACCES Permission denied
+[2026-02-27 21:05:26.207] [warning] module keyboard-state: Disabling module "keyboard-state", Failed to find keyboard device: EACCES Permission denied
+[2026-02-27 21:05:26.208] [warning] module sway/language: Disabling module "sway/language", Socket path is empty
+[2026-02-27 21:05:26.214] [error] Failed to query power-profiles-daemon via dbus: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2026-02-27 21:05:26.214] [error] Failed to query power-profiles-daemon via dbus: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2026-02-27 21:05:26.238] [warning] Requested height: 10 is less than the minimum height: 32 required by the modules
+[2026-02-27 21:05:26.238] [info] Bar configured (width: 2560, height: 32) for output: DP-2
+[2026-02-27 21:05:26.239] [warning] Requested height: 10 is less than the minimum height: 32 required by the modules
+[2026-02-27 21:05:26.239] [info] Bar configured (width: 1920, height: 32) for output: DP-3
+[2026-02-27 21:05:26.249] [info] Bar configured (width: 1920, height: 32) for output: DP-3
+[2026-02-27 21:24:47.970] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-27 21:24:48.028] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-27 21:24:48.029] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-27 21:24:48.030] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-27 21:25:22.728] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-27 21:25:22.767] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-27 21:25:22.767] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-27 21:25:22.768] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-27 21:26:21.862] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-27 21:26:21.896] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-02-27 21:26:21.896] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2026-02-27 21:26:21.896] [info] Loading persistent workspaces from Hyprland workspace rules
