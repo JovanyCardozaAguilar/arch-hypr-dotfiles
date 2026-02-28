@@ -15,6 +15,10 @@ theme:
 	@echo "1) desktop"
 	@echo "2) laptop"
 	@read -p "Enter theme: " theme; \
-	sed -i "s|source = .*|source = ~/.config/hypr/themes/$$theme.conf|" ~/.config/hypr/hyprland.conf; \
+	case $$theme in \
+		1) theme="desktop" ;; \
+		2) theme="laptop" ;; \
+	esac; \
+	echo "source = ~/.config/hypr/themes/$$theme.conf" > ~/.config/hypr/hyprland.conf; \
 	pkill waybar; nohup waybar -c ~/.config/waybar/themes/$$theme/config.jsonc -s ~/.config/waybar/themes/$$theme/style.css &
 	hyprctl reload
