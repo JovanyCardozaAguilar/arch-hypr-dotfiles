@@ -1,4 +1,5 @@
-sync:
+# Push config changes to git repo
+upload:
 	cp -r ~/.config/hypr/themes ./hypr/
 	cp ~/.config/hypr/hyprland.conf ./hypr/
 	cp -r ~/.config/waybar/themes ./waybar/
@@ -6,11 +7,14 @@ sync:
 	git commit -m "updated configs"
 	git push
 
+# Install config changes to git repo
 install:
 	cp -r ./hypr ~/.config/
 	cp -r ./waybar ~/.config/
 	pkill waybar; nohup waybar &
 	hyprctl reload
+
+# Choose theme
 theme:
 	@echo "1) desktop"
 	@echo "2) laptop"
