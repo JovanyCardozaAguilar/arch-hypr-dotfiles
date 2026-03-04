@@ -7,8 +7,10 @@ upload:
 	git commit -m "updated configs"
 	git push
 
-# Install config changes to git repo
+# Install config changes from git repo
 install:
+	git fetch
+	git pull
 	cp -r ./hypr ~/.config/
 	cp -r ./waybar ~/.config/
 	pkill waybar; nohup waybar &
