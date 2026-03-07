@@ -17,6 +17,7 @@
 	    "clock"
     ],
     "modules-right": [
+	    "custom/mullvad",
 	    "custom/bt-gui",
 	    "mpd",
 	    "pulseaudio",
@@ -27,6 +28,16 @@
 	    "tray"
     ],
     // Modules configuration
+    "custom/mullvad": {
+        "exec": "STATUS=$(mullvad status); if echo \"$STATUS\" | grep -q '^Connected'; then echo '{\"text\": \"\\uf023\", \"class\": \"connected\", \"tooltip\": \"Mullvad: Connected\"}'; elif echo \"$STATUS\" | grep -q '^Connecting'; then echo '{\"text\": \"Connecting...\", \"class\": \"connecting\", \"tooltip\": \"Mullvad: Connecting...\"}'; else echo '{\"text\": \"\\uf3c1\", \"class\": \"disconnected\", \"tooltip\": \"Mullvad: Disconnected\"}'; fi",
+        "return-type": "json",
+        "interval": 1,
+        "signal": 1,
+        "on-click": "mullvad connect && pkill -RTMIN+1 waybar",
+        "on-click-right": "mullvad disconnect && pkill -RTMIN+1 waybar",
+        "format": "{}",
+        "escape": true
+    },
     "custom/bt-gui": {
         "format": "  ",
         "tooltip": false,
@@ -162,3 +173,4 @@
 	    }
     }
 }
+
