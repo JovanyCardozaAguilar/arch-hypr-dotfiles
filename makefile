@@ -16,15 +16,15 @@ install:
 	pkill waybar; nohup waybar &
 	hyprctl reload
 
-# Choose theme
+# Auto-detect theme from hostname
 theme:
-	@echo "1) desktop"
-	@echo "2) laptop"
-	@read -p "Enter theme: " theme; \
-	case $$theme in \
-		1) theme="desktop" ;; \
-		2) theme="laptop" ;; \
+	@HOSTNAME=$$(cat /etc/hostname); \
+	case $$HOSTNAME in \
+		archlinux) theme="desktop" ;; \
+		archlinux-btw) theme="laptop" ;; \
+		*) echo "Unknown hostname: $$HOSTNAME"; exit 1 ;; \
 	esac; \
+	echo "Applying $$theme theme..."; \
 	echo "source = ~/.config/hypr/themes/$$theme.conf" > ~/.config/hypr/hyprland.conf; \
-	pkill waybar; nohup waybar -c ~/.config/waybar/themes/$$theme/config.jsonc -s ~/.config/waybar/themes/$$theme/style.css &
+	pkill waybar; nohup waybar -c ~/.config/waybar/themes/$$theme/config.jsonc -s ~/.config/waybar/themes/$$theme/style.css & \
 	hyprctl reload
