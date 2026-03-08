@@ -4,10 +4,70 @@
     font-size: 13px;
 }
 
+#custom-mullvad {
+    border-radius: 12px;
+    margin: 3px 0px 5px 0px;
+    padding: 0 10px;
+    color: #000000;
+}
+
+#custom-mullvad.connected {
+    background-color: #2ecc71;
+}
+
+#custom-mullvad.connected:hover {
+    background-color: #27ae60;
+}
+
+#custom-mullvad.connected:active {
+    background-color: #1e8449;
+    color: #ffffff;
+}
+
+#custom-mullvad.connecting {
+    background-color: #f39c12;
+    color: #000000;
+    animation-name: mullvad-pulse;
+    animation-duration: 1s;
+    animation-timing-function: steps(4);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#custom-mullvad.connecting:hover {
+    background-color: #d68910;
+    animation: none;
+}
+
+#custom-mullvad.connecting:active {
+    background-color: #b7770d;
+    animation: none;
+}
+
+@keyframes mullvad-pulse {
+    to {
+        background-color: #e67e22;
+    }
+}
+
+#custom-mullvad.disconnected {
+    background-color: #f53c3c;
+    color: #ffffff;
+}
+
+#custom-mullvad.disconnected:hover {
+    background-color: #c0392b;
+}
+
+#custom-mullvad.disconnected:active {
+    background-color: #922b21;
+}
+
 #custom-bt-gui {
-	font-size: 16px;
-	border-radius: 10px;
+	font-size: 14px;
+	border-radius: 5px;
 	margin: 3px 0px 5px 0px;
+	padding: 0 5px;
 	background-color: #17e2da;
 	color: #000000;
 }
@@ -135,6 +195,8 @@ button:hover {
 #battery {
     background-color: #ffffff;
     color: #000000;
+    border-radius: 5px;
+    margin: 3px 0px 5px 0px;
 }
 
 #battery.charging, #battery.plugged {
@@ -162,6 +224,8 @@ button:hover {
 
 #power-profiles-daemon {
     padding-right: 15px;
+    border-radius: 5px;
+    margin: 3px 0px 5px 0px;
 }
 
 #power-profiles-daemon.performance {
@@ -198,10 +262,14 @@ label:focus {
 
 #backlight {
     background-color: #90b1b1;
+    border-radius: 5px;
+    margin: 3px 0px 5px 0px;
 }
 
 #network {
     background-color: #2980b9;
+    border-radius: 5px;
+    margin: 3px 0px 5px 0px;
 }
 
 #network.disconnected {
@@ -209,7 +277,7 @@ label:focus {
 }
 
 #pulseaudio {
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 3px 0px 5px 0px;
     background-color: #17e2da;
     color: #000000;
@@ -245,6 +313,8 @@ label:focus {
 
 #temperature {
     background-color: #f0932b;
+    border-radius: 5px;
+    margin: 3px 0px 5px 0px;
 }
 
 #temperature.critical {
@@ -342,3 +412,5 @@ label:focus {
 #privacy-item.audio-out {
     background-color: #0069d4;
 }
+
+
