@@ -15,6 +15,7 @@ install:
 	cp -r ./waybar ~/.config/
 	pkill waybar; nohup waybar &
 	hyprctl reload
+	make theme
 
 # Auto-detect theme from hostname
 theme:
